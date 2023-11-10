@@ -1,5 +1,7 @@
 package it.unical.ingsw;
 
+import org.joda.time.DateTime;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -25,5 +27,17 @@ public class MyListUtilTest {
     public void testSortDescending() {
         List<Integer> sortedList = MyListUtil.sort(list, -1);
         assertEquals(Arrays.asList(9, 6, 5, 5, 5, 4, 3, 3, 2, 1, 1), sortedList);
+    }
+
+    @Before
+    public void printStart() {
+        DateTime start = new DateTime();
+        System.out.println("Start time: " + start.toString("yyyy-MM-dd HH:mm:ss.SSS"));
+    }
+
+    @After
+    public void printEnd() {
+        DateTime end = new DateTime();
+        System.out.println("End time: " + end.toString("yyyy-MM-dd HH:mm:ss.SSS"));
     }
 }
