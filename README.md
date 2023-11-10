@@ -1,6 +1,7 @@
 Scrivere all'interno di una classe con nome "MyListUtil" una funzione "sort" che, data una lista di numeri interi, organizzi gli elementi sia in ordine crescente che in ordine decrescente, a seconda della scelta dell'utente.
-> public List<integer> sort(List <integer> list, int order){}
-
+    ``` java
+    public List<integer> sort(List <integer> list, int order){}
+    ```
     order=0 //ascendente
     order=1 //decrescente
 
