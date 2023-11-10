@@ -1,5 +1,5 @@
 Scrivere all'interno di una classe con nome "MyListUtil" una funzione "sort" che, data una lista di numeri interi, organizzi gli elementi sia in ordine crescente che in ordine decrescente, a seconda della scelta dell'utente.
-public List<integer> sort(List <integer> list, int order){}
+> public List<integer> sort(List <integer> list, int order){}
 
 order=0 //ascendente
 order=1 //decrescente
@@ -9,11 +9,11 @@ Nota: si consiglia di scrivere il proprio algoritmo per ordinare i numeri
 A tal fine:
 1. Creare un progetto Maven. (Potete usare l'archetype: maven-archetype-quickstart)
 2. Tracciare le modifiche usando Git. Si deve creare una branca con nome "dev" per scrivere il codice, e in fine dare merge con la branca principale
-3. Testare la funzione scritta usando Junit e scrivere almeno due casi di prove, nel caso in cui sia stata scritta piu' di una funzione e' comunque necessario riportare le prove delle stesse. E' richiesto l'uso di @Before o @BeforeClass a seconda dei casi
-4. Installare la libreria Joda-Time e stampare la data e l'ora dell'inizio e della fine di tutti i tests. il formato di stampa e' a scelta personale
-5. Caricare il codice sorgente su un repository GitHub evitando di caricare quei files che riguardano l'impostazione dell'IDE ed infine la cartella "target" creata da Maven. il nome del progetto su GitHub deve essere nel formato: ProvaIngSw_{matricola}
+3. Testare la funzione scritta usando Junit e scrivere almeno due casi di prove, nel caso in cui sia stata scritta piu' di una funzione è comunque necessario riportare le prove delle stesse. È richiesto l'uso di @Before o @BeforeClass a seconda dei casi
+4. Installare la libreria Joda-Time e stampare la data e l'ora dell'inizio e della fine di tutti i tests. Il formato di stampa è a scelta personale.
+5. Caricare il codice sorgente su un repository GitHub evitando di caricare quei files che riguardano l'impostazione dell'IDE e infine la cartella "target" creata da Maven. il nome del progetto su GitHub deve essere nel formato: ProvaIngSw_{matricola}
 
-</ul>
+<ul></ul>
 
 1. Creare un progetto Maven
     1. IntelliJ -> New Project -> Maven Archetype
